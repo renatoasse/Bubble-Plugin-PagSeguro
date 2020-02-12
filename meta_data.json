@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "payment"
+    },
+    "description": "Integre seu aplicativo Bubble com o Pagseguro.\n\nPermite as modalidades de pagamento:\n - Checkout com Redirecionamento\n - Checkout Transparente (sem redirecionamento)\n - Planos de Assinatura (recorrência)\n\nPlugin criado por Renato Asse\nhttps://www.semcodar.com.br",
+    "image": "//s3.amazonaws.com/appforest_uf/f1575917969338x689103865832960300/logo-pagseguro.jpg",
+    "license": "open_source",
+    "link": "",
+    "name": "PagSeguro",
+    "plugin_instructions": "Crie sua conta de testes (Sandbox): sandbox.pagseguro.uol.com.br\n\nCrie sua conta real (Live) : pagseguro.uol.com.br\n"
+}

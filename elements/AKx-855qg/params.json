@@ -1,0 +1,34 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 50
+    },
+    "display": "PagSeguro",
+    "events": {
+        "ATx": {
+            "caption": "Token Cartão Gerado",
+            "name": "credit_card_token_generated"
+        }
+    },
+    "icon": "ion-cash",
+    "states": {
+        "AKz": {
+            "caption": "Hash do Comprador",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "pagsegurohash",
+            "value": "text"
+        },
+        "ATk": {
+            "caption": "Token do Cartão",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "credit_card_token",
+            "value": "text"
+        }
+    }
+}

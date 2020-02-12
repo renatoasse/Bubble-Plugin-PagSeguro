@@ -1,0 +1,46 @@
+{
+    "caption": "Criar Token de Cartão e colocar no elemento",
+    "doc": "Use para gerar o Token do Cartão. Documentação da API disponível em https://dev.pagseguro.uol.com.br/reference#backend-obter-token-de-cartao",
+    "fields": {
+        "ATs": {
+            "caption": "N° do Cartão",
+            "doc": "Número do Cartão com 16 dígitos (ex: 4111111111111111)",
+            "editor": "DynamicValue",
+            "name": "card_number",
+            "rank": 0,
+            "value": "text"
+        },
+        "ATt": {
+            "caption": "CVV do Cartão",
+            "doc": "Número CVV do Cartão (ex: 123)",
+            "editor": "DynamicValue",
+            "name": "cvv",
+            "rank": 1,
+            "value": "text"
+        },
+        "ATu": {
+            "caption": "Expiração - Mês",
+            "doc": "Mês de Vencimento do Cartão com 2 dígitos (ex: 12)",
+            "editor": "DynamicValue",
+            "name": "expiration_month",
+            "rank": 2,
+            "value": "text"
+        },
+        "ATv": {
+            "caption": "Expiração - Ano",
+            "doc": "Ano de Vencimento do Cartão com 4 dígitos (ex: 2027)",
+            "editor": "DynamicValue",
+            "name": "expiration_year",
+            "rank": 3,
+            "value": "text"
+        },
+        "ATw": {
+            "caption": "ID da Sessão",
+            "doc": "ID da Sessão (obtida com a call Gerar Sessão)",
+            "editor": "DynamicValue",
+            "name": "session_id",
+            "rank": 4,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "Pagseguro Checkout - Encaminhar para URL de Pagamento",
+    "fields": {
+        "AMi": {
+            "caption": "Código Checkout",
+            "doc": "CHECKOUT CODE obtido na etapa \"Obter Autorização - Código Checkout\"",
+            "editor": "DynamicValue",
+            "name": "codigo_checkout",
+            "rank": 0,
+            "value": "text"
+        },
+        "AMj": {
+            "caption": "Sandbox ou Live",
+            "default_val": "Sandbox",
+            "doc": "Selecione SANDBOX para ambiente de testes e LIVE para transações reais",
+            "editor": "Dropdown",
+            "name": "sandbox_ou_live",
+            "options": "Sandbox,Live",
+            "rank": 1
+        }
+    },
+    "type": "client_side"
+}
